@@ -1,5 +1,7 @@
 # micro-csrf
 
+[![Build Status](https://travis-ci.org/fourcube/micro-csrf.svg?branch=master)](https://travis-ci.org/fourcube/micro-csrf)
+
 `micro-csrf` is a csrf middleware for Zeit.co's [micro](https://github.com/zeit/micro) framework. This module is heavily inspired by [`express-csurf`](https://github.com/expressjs/csurf).
 
 ## Installation
