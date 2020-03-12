@@ -1,0 +1,57 @@
+{
+  "name": "micro-csrf",
+  "version": "1.0.0",
+  "description": "Anti-CSRF middleware for micro",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourcube/micro-csrf.git"
+  },
+  "keywords": [
+    "micro",
+    "csrf",
+    "express"
+  ],
+  "author": "Chris Grieger <chris@grieger.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fourcube/micro-csrf/issues"
+  },
+  "homepage": "https://github.com/fourcube/micro-csrf#readme",
+  "devDependencies": {
+    "@types/csrf": "^1.3.2",
+    "@types/jest": "^24.0.21",
+    "@types/micro": "^7.3.3",
+    "@types/node": "^13.9.0",
+    "@types/request-promise": "^4.1.44",
+    "@types/test-listen": "^1.1.0",
+    "jest": "^24.9.0",
+    "micro": "^9.3.4",
+    "request-promise": "^4.2.4",
+    "test-listen": "^1.1.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  },
+  "dependencies": {
+    "csrf": "^3.1.0"
+  }
+}
